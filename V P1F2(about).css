@@ -1,0 +1,90 @@
+body {
+    background-color: #fad3d3;
+    font-family:'Nunito', sans-serif;
+    color: black;
+    padding-top: 70px;
+    margin-top: 40px;
+}
+
+.navbar-top a:hover{
+    color: red;
+}
+.navbar-toggler{
+    background-color:rgb(250, 140, 140);
+}
+#mainNavbar {
+    font-size: 1rem;
+    font-weight: 100;
+    background-color: #fca1b5;
+}
+#mainNavbar .nav-link{
+    color: white;
+}
+#mainNavbar a:hover{
+    color: #ea1c2c;
+    text-decoration: underline;
+    background-color:#fca1b5 ;
+}
+
+.dropdown-item {
+    color: white;
+    background-color:#fca1b5;
+}
+
+ul li{
+    position: relative;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+#sec2{
+    background-color: rgb(126, 221, 248);
+    height:300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+@media (min-width: 768px){
+.display-md-1 {
+    font-size: 6rem;
+}
+}
+@media (max-width: 1200px){
+.display-4 {font-size: calc(1.475rem + 2.7vw);}
+#sec2{height: 200px;}
+}
+
+#sec3 span ,#sec4 span,h3{
+    color: #ea1c2c;
+}
+#sec3 h2{
+    font-size:30px;
+}
+#sec3img1{
+    width: 100%;
+}
+#sec4{
+    display: flex;
+}
+
+
+
+
+
+
+#Hfoot1{
+    box-sizing: border-box;
+    background-color: rgb(69, 68, 68);
+    color: white;
+    margin-bottom: 0;
+    height: 100%;
+    padding-top: 20px;
+}
+.soc-item{
+    display: inline-block;
+    margin-right: 10px;
+    
+}

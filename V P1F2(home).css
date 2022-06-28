@@ -1,0 +1,103 @@
+body {
+    background-color: #fad3d3;
+    font-family:'Nunito', sans-serif;
+    padding-top: 40px;
+}
+
+.navbar-top a:hover{
+    color: red;
+}
+.navbar-toggler{
+    background-color:rgb(250, 140, 140);
+}
+#mainNavbar {
+    font-size: 1rem;
+    font-weight: 100;
+    background-color: #fca1b5;
+}
+#mainNavbar .nav-link{
+    color: white;
+}
+#mainNavbar a:hover{
+    color: #ea1c2c;
+    text-decoration: underline;
+    background-color:#fca1b5 ;
+}
+.dropdown-item {
+    color: white;
+    background-color:#fca1b5;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* #mainNavbar .navbar-brand{ */
+    /* color: #ea1c2c; */
+    /* font-size: 1.5rem; */
+    /* font-weight: 100; */
+/* } */
+ul li{
+    position: relative;
+}
+
+#carouselExampleCaptions {
+    /* width: 95%; */
+    /* margin-top: 70px; */
+    /* margin-left: 3%; */
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+
+
+}
+
+#sec2{
+    margin-top:70px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+#Himg1{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+.feature-box.f-style-2 {
+    /* padding: 20px; */
+    box-shadow: 0px 0px 40px rgb(83 88 93 / 10%);
+    background-color:#febbc9;
+    margin-top: 10px
+}
+#sec3{
+    margin-top: 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#sec4 img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+}
+#Hfoot1{
+    box-sizing: border-box;
+    background-color: rgb(69, 68, 68);
+    color: white;
+    margin-bottom: 0;
+    height: 100%;
+    padding-top: 20px;
+}
+.soc-item{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+#Hfoot1 ul{
+    height: 300px;
+    line-height: 1.75rem;
+}
+
